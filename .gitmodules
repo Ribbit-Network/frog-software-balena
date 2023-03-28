@@ -1,0 +1,9 @@
+[submodule "v1/wifi-connect"]
+	path = v1/wifi-connect
+	url = https://github.com/balena-io/wifi-connect.git
+[submodule "v2/wifi-connect"]
+	path = v2/wifi-connect
+	url = https://github.com/balena-io/wifi-connect.git
+[submodule "v3/wifi-connect"]
+	path = v3/wifi-connect
+	url = https://github.com/balena-io/wifi-connect.git
