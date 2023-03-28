@@ -38,8 +38,8 @@ from adafruit_extended_bus import ExtendedI2C as I2C  # type: ignore
 from influxdb_client import InfluxDBClient, Point, WritePrecision  # type: ignore
 from influxdb_client.client.write_api import SYNCHRONOUS  # type: ignore
 
-BUCKET = "co2"
-ORG = "keenan.johnson@gmail.com"
+BUCKET = "frog_fleet"
+ORG = "Ribbit Network"
 DEVICE_UUID = os.getenv("BALENA_DEVICE_UUID")
 RESIN_DEVICE_TYPE = os.getenv("RESIN_DEVICE_TYPE")
 POLL_INTERVAL_SECONDS = float(os.getenv("POLL_INTERVAL_SECONDS", "0.5"))
